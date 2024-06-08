@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Aylana yuzasini topish
+Console.WriteLine("Aylana radiusini kiriting:");
+string R = Console.ReadLine();
+decimal Radius = Convert.ToDecimal(R);
+decimal aylanaYuzasi = (3.14m * (Radius * Radius));
+Console.WriteLine("aylananing yuzasi" + aylanaYuzasi + "ga teng");
+ 
